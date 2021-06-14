@@ -1,5 +1,5 @@
 <template>
-    <div class="page-container">
+    <div class="page-container-dark">
         <div class="row">
             <div class="col-6 photo">
                 <div class="container">
@@ -15,11 +15,11 @@
                         真心相信程式可以產生巨大的影響力，<br>每日都在增強自己實力的路上。</p>
                     <div class="vue-package">
                         <ul>
-                            <li>◇ Vue 生態系：<span class="white-hightligh">Vuex</span>、
-                            <span class="white-hightligh">Vue Router</span>
+                            <li>◇ Vue 生態系：<span class="white-hightlight">Vuex</span>、
+                            <span class="white-hightlight">Vue Router</span>
                             、<br>&nbsp;&nbsp;&nbsp;&nbsp;Vuelidate、Vue I18n</li>
                             <li>◆ Vanilla JavaScript、
-                                <span class="white-hightligh">jQuery</span></li>
+                                <span class="white-hightlight">jQuery</span></li>
                             <li>◇ HTML5、CSS3 (SCSS)</li>
                             <li>◆ RWD 響應式網頁開發</li>
                             <li>◆ PHP、MYSQL</li>

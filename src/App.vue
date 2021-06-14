@@ -2,7 +2,6 @@
   <div id="app">
     <the-nav />
     <router-view />
-    <font-awesome-icon icon="user-secret" />
   </div>
 </template>
 
@@ -56,18 +55,32 @@ img {
   height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
   padding-left: 0;
   list-style: none;
 }
 
-.page-container {
+.page-container-dark {
   height: 100vh;
   background-color: $rose-water;
 }
 
-span.white-hightligh {
+.page-container-light {
+  height: 100vh;
+  background-color: $skin;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+span.white-hightlight {
   color: ghostwhite;
-  font-weight: 60;
+  font-weight: 600;
 }
 </style>
