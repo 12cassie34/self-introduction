@@ -6,22 +6,22 @@
 </template>
 
 <script>
-import theNav from './components/TheNavigation.vue'
+import theNav from "./components/TheNavigation.vue";
 export default {
   components: { theNav },
   data() {
     return {
-      route: this.$route.fullPath
-    }
-  }
-}
+      route: this.$route.fullPath,
+    };
+  },
+};
 </script>
 
 <style lang="scss">
-$gray-brown: #67595E;
-$coffe-pot: #A49393;
-$skin: #EED6D3;
-$rose-water: #E8B4B8;
+$gray-brown: #67595e;
+$coffe-pot: #a49393;
+$skin: #eed6d3;
+$rose-water: #e8b4b8;
 
 body {
   margin: 0;
@@ -56,7 +56,7 @@ img {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
@@ -75,8 +75,8 @@ ul {
 }
 
 h1 {
-    margin-top: 0;
-    padding-top: 1rem;
+  margin-top: 0;
+  padding-top: 1rem;
 }
 
 span.white-hightlight {

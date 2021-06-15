@@ -1,3 +1,5 @@
 <template>
-    <h1>My Work</h1>
+<div class="page-container-dark">
+  <h1>作品集</h1>
+</div>
 </template>

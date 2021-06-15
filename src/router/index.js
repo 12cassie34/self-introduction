@@ -13,27 +13,35 @@ const routes = [
   {
     path: "/code-experience",
     name: "Experience",
-    component: () => import(/* webpackChunkName: "code-experience" */ "../views/CodeExperience.vue")
+    component: () =>
+      import(
+        /* webpackChunkName: "code-experience" */ "../views/CodeExperience.vue"
+      ),
   },
   {
     path: "/my-work",
     name: "Work",
-    component: () => import(/* webpackChunkName: "my-work" */ "../views/MyWork.vue")
+    component: () =>
+      import(/* webpackChunkName: "my-work" */ "../views/MyWork.vue"),
   },
   {
     path: "/other-experience",
     name: "Other",
-    component: () => import(/* webpackChunkName: "other-experience" */ "../views/OtherExperiences.vue")
+    component: () =>
+      import(
+        /* webpackChunkName: "other-experience" */ "../views/OtherExperiences.vue"
+      ),
   },
   {
     path: "/contact-me",
     name: "Contact",
-    component: () => import(/* webpackChunkName: "contact-me" */ "../views/ContactMe.vue")
-  }
+    component: () =>
+      import(/* webpackChunkName: "contact-me" */ "../views/ContactMe.vue"),
+  },
 ];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   routes,
 });
 
