@@ -50,6 +50,15 @@ body {
   }
 }
 
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
 img {
   width: 100%;
   height: auto;
