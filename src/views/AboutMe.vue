@@ -70,16 +70,20 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 575px) {
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-}
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .row {
+    flex-direction: column;
+    .col-6 {
+      max-width: 100%;
+      .container {
+        margin-top: 20px;
+      }  
+    }
+    .col-6.profile {
+      .container {
+        margin-top: 20px;
+      }
+    }
+  }
 }
 </style>

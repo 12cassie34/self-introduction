@@ -23,8 +23,10 @@ $coffe-pot: #7391c8;
 $skin: #e3e7f1;
 $rose-water: #bdc6d9;
 
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #app {
@@ -91,5 +93,17 @@ h1 {
 span.white-hightlight {
   color: cornflowerblue;
   font-weight: 600;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .page-container-dark {
+    padding-bottom: 50px;
+    height: auto;
+  }
+
+  .page-container-light {
+    padding-bottom: 50px;
+    height: auto;
+  }
 }
 </style>
