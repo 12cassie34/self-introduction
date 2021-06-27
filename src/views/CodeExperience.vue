@@ -13,18 +13,31 @@
         <div class="col-6">
           <h3>前台</h3>
           <ul>
-            <li>◇ 根據設計稿，切出官網頁面版型（含 RWD）</li>
+            <li>
+              <font-awesome-icon icon="circle-notch"></font-awesome-icon>
+              <span>根據設計稿，切出官網頁面版型（含 RWD）</span>
+            </li>
           </ul>
         </div>
         <div class="col-6">
           <h3>後台</h3>
           <ul>
             <li>
-              ◇ 運用 Vue、Vuex、Vuelidate 完成臺灣、中國、美國商標申請<br />&nbsp;&nbsp;&nbsp;表單，並利用
-              axios 串接後端來儲存表單資料
+              <font-awesome-icon icon="circle-notch"></font-awesome-icon>
+              <span
+                >運用 Vue、Vuex、Vuelidate
+                完成臺灣、中國、美國商標申請表單，並利用 axios
+                串接後端來儲存表單資料</span
+              >
             </li>
-            <li>◆ 串接商標資料庫，製作商標檢索功能</li>
-            <li>◇ 使用 Vue、Vue Router 執行公司後台案件管理功能</li>
+            <li>
+              <font-awesome-icon icon="circle-notch"></font-awesome-icon>
+              <span>串接商標資料庫，製作商標檢索功能</span>
+            </li>
+            <li>
+              <font-awesome-icon icon="circle-notch"></font-awesome-icon>
+              <span>使用 Vue、Vue Router 執行公司後台案件管理功能</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -75,13 +88,27 @@ export default {
     flex: 50%;
     ul {
       text-align: left;
+      li {
+        margin-bottom: 1rem;
+        display: inline-flex;
+        align-items: baseline;
+        span {
+          margin-left: 0.5rem;
+        }
+      }
     }
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 575px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .experience-row {
+    flex-direction: column;
+    .col-6 {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+  }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
