@@ -18,10 +18,10 @@ export default {
 </script>
 
 <style lang="scss">
-$gray-brown: #52688F;
-$coffe-pot: #7391C8;
-$skin: #E3E7F1;
-$rose-water: #BDC6D9;
+$gray-brown: #52688f;
+$coffe-pot: #7391c8;
+$skin: #e3e7f1;
+$rose-water: #bdc6d9;
 
 body {
   margin: 0;

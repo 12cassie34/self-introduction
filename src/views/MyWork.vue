@@ -6,14 +6,30 @@
         <h2>{{ project.name }}</h2>
         <p class="description">{{ project.description }}</p>
         <div class="langs">
-          <p v-for="(lang, index) in project.lang" :key="index" 
-            :class="lang === 'Vue' ? 'vue' : '' || 
-                    lang === 'JavaScript' ? 'js' : '' ||
-                    lang === 'PHP' ? 'php' : '' ||
-                    lang === 'HTML' ? 'html' : '' ||
-                    lang === 'CSS' ? 'css' : '' ||
-                    lang === 'SCSS' ? 'css' : '' ||
-                    lang === 'Hack' ? 'other' : ''" class="tag">{{ lang }}</p>
+          <p
+            v-for="(lang, index) in project.lang"
+            :key="index"
+            :class="
+              lang === 'Vue'
+                ? 'vue'
+                : '' || lang === 'JavaScript'
+                ? 'js'
+                : '' || lang === 'PHP'
+                ? 'php'
+                : '' || lang === 'HTML'
+                ? 'html'
+                : '' || lang === 'CSS'
+                ? 'css'
+                : '' || lang === 'SCSS'
+                ? 'css'
+                : '' || lang === 'Hack'
+                ? 'other'
+                : ''
+            "
+            class="tag"
+          >
+            {{ lang }}
+          </p>
         </div>
         <a :href="project.link" target="_blank" rel="noopener noreferrer"
           >連結</a
@@ -89,10 +105,9 @@ export default {
         padding: 6px;
         display: flex;
         align-items: center;
-        
       }
       p.tag.vue {
-        background-color: #41B883;
+        background-color: #41b883;
         color: white;
       }
       p.tag.js {
@@ -100,7 +115,7 @@ export default {
         color: white;
       }
       p.tag.php {
-        background-color: #FFCE13;
+        background-color: #ffce13;
       }
       p.tag.html {
         background-color: #000000;
@@ -111,7 +126,7 @@ export default {
         color: white;
       }
       p.tag.other {
-        background-color: #E2B080;
+        background-color: #e2b080;
       }
     }
     a {

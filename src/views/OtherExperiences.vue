@@ -36,7 +36,7 @@
       <div class="item">
         <div class="title-period">
           <p class="title">
-            英語：多益 910<br>
+            英語：多益 910<br />
             法語：DELF B2，日常聽說讀寫無礙
           </p>
         </div>
