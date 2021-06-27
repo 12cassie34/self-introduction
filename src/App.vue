@@ -18,10 +18,10 @@ export default {
 </script>
 
 <style lang="scss">
-$gray-brown: #67595e;
-$coffe-pot: #a49393;
-$skin: #eed6d3;
-$rose-water: #e8b4b8;
+$gray-brown: #52688F;
+$coffe-pot: #7391C8;
+$skin: #E3E7F1;
+$rose-water: #BDC6D9;
 
 body {
   margin: 0;
@@ -89,7 +89,7 @@ h1 {
 }
 
 span.white-hightlight {
-  color: ghostwhite;
+  color: cornflowerblue;
   font-weight: 600;
 }
 </style>
