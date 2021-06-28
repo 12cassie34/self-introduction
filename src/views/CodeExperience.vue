@@ -108,13 +108,4 @@ export default {
     }
   }
 }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-}
-@media only screen and (min-width: 1400px) {
-}
 </style>

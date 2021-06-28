@@ -92,7 +92,8 @@ export default {
       text-align: right;
     }
     p.description {
-      height: 3.5rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
       text-align: left;
       color: white;
     }
@@ -130,9 +131,11 @@ export default {
       }
     }
     a {
+      margin-top: 1rem;
       border: 1.5px solid;
       border-radius: 45px;
       padding: 6px;
+      display: inline-block;
       color: #2c3e50;
       font-weight: 600;
     }
@@ -144,15 +147,28 @@ export default {
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 575px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    .project {
+      width: 100%;
+      height: auto;
+    }
+  }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .project-container {
+    .project {
+      width: 50%;
+      height: 300px;
+    }
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-}
-@media only screen and (min-width: 1400px) {
+  .project-container {
+    .project {
+      height: 300px;
+    }
+  }
 }
 </style>
