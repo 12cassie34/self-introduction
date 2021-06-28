@@ -18,17 +18,27 @@
           <div class="vue-package">
             <ul>
               <li>
-                ◇ Vue 生態系：<span class="white-hightlight">Vuex</span>、
+                <font-awesome-icon icon="check"></font-awesome-icon>
+                <p>Vue 生態系：<span class="white-hightlight">Vuex</span>、
                 <span class="white-hightlight">Vue Router</span>
-                、<br />&nbsp;&nbsp;&nbsp;&nbsp;Vuelidate、Vue I18n
+                、Vuelidate、Vue I18n</p>
               </li>
               <li>
-                ◆ Vanilla JavaScript、
-                <span class="white-hightlight">jQuery</span>
+                <font-awesome-icon icon="check"></font-awesome-icon>
+                <p>Vanilla JavaScript、<span class="white-hightlight">jQuery</span></p>
               </li>
-              <li>◇ HTML5、CSS3 (SCSS)</li>
-              <li>◆ RWD 響應式網頁開發</li>
-              <li>◆ PHP、MYSQL</li>
+              <li>
+                <font-awesome-icon icon="check"></font-awesome-icon>
+                <p>HTML5、CSS3 (SCSS)</p>
+              </li>
+              <li>
+                <font-awesome-icon icon="check"></font-awesome-icon>
+                <p>RWD 響應式網頁開發</p>
+              </li>
+              <li>
+                <font-awesome-icon icon="check"></font-awesome-icon>
+                <p>PHP、MYSQL</p>
+              </li>
             </ul>
           </div>
         </div>
@@ -65,6 +75,13 @@
       margin-left: 0;
       ul {
         text-align: left;
+        li {
+          display: inline-flex;
+          align-items: baseline;
+          p {
+              margin-left: 8px;
+          }
+        }
       }
     }
   }
@@ -84,6 +101,9 @@
         margin-top: 20px;
       }
     }
+  }
+  .vue-package {
+    margin-top: 1rem;
   }
 }
 </style>
