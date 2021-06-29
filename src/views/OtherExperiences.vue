@@ -54,6 +54,10 @@
     h2 {
       margin-bottom: 0;
     }
+    .item {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
     .title-period {
       display: flex;
       justify-content: space-between;
@@ -70,6 +74,17 @@
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 575px) {
+  #other-experience {
+    section {
+      .title-period {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .job-description {
+        margin-top: 1rem;
+      }
+    }
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 }
