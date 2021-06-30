@@ -12,6 +12,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com/12cassie34/self-introduction.git main:gh-pages
+git push -f git@github.com:12cassie34/12cassie34.github.io.git main
 
 cd -
