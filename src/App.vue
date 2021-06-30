@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <the-nav />
-    <router-view />
+    <transition name="slide-fade" mode="out-in">
+      <router-view />
+    </transition>
   </div>
 </template>
 
@@ -93,6 +95,21 @@ h1 {
 span.white-hightlight {
   color: cornflowerblue;
   font-weight: 600;
+}
+
+.slide-fade-enter-active {
+  transition: all .8s linear;
+}
+.slide-fade-leave-active {
+  transition: all .8s linear;
+}
+.slide-fade-enter {
+  transform: translateX(10%);
+  opacity: 1;
+}
+.slide-fade-leave-to {
+  transform: translateX(-10%);
+  opacity: 1;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
