@@ -2,7 +2,7 @@
   <div id="app">
     <the-nav />
     <transition name="slide-fade" mode="out-in">
-      <router-view />
+      <router-view :key="$route.path" />
     </transition>
   </div>
 </template>
