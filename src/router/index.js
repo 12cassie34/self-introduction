@@ -11,43 +11,38 @@ const routes = [
     component: AboutMe
   },
   {
-    path: "/",
-    name: "AboutMe",
-    component: AboutMe
-  },
-  {
-    path: "/code-experience",
+    path: "/self-introduction/code-experience",
     name: "Experience",
     component: () =>
       import(
         /* webpackChunkName: "code-experience" */ "../views/CodeExperience.vue"
-      ),
+      )
   },
   {
-    path: "/my-work",
+    path: "/self-introduction/my-work",
     name: "Work",
     component: () =>
-      import(/* webpackChunkName: "my-work" */ "../views/MyWork.vue"),
+      import(/* webpackChunkName: "my-work" */ "../views/MyWork.vue")
   },
   {
-    path: "/other-experience",
+    path: "/self-introduction/other-experience",
     name: "Other",
     component: () =>
       import(
         /* webpackChunkName: "other-experience" */ "../views/OtherExperiences.vue"
-      ),
+      )
   },
   {
-    path: "/contact-me",
+    path: "/self-introduction/contact-me",
     name: "Contact",
     component: () =>
-      import(/* webpackChunkName: "contact-me" */ "../views/ContactMe.vue"),
-  },
+      import(/* webpackChunkName: "contact-me" */ "../views/ContactMe.vue")
+  }
 ];
 
 const router = new VueRouter({
   mode: "history",
   routes,
-});
+})
 
 export default router;
